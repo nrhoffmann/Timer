@@ -7,7 +7,7 @@ public class Timer {
     enum TimerState {STARTED, STOPPED}
 
     private long startTime, endTime;
-    private TimerState currentState = TimerState.STOPPED;
+    private TimerState currentState = STOPPED;
 
     public void start() {
         ensureTimerIsStopped();
